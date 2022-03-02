@@ -1,9 +1,20 @@
-double addNumber(double num1, double num2) {
+class Person {
+  String name = "Max";
+  int age = 30;
+}
+
+double addNumbers(double num1, double num2) {
   return num1 + num2;
 }
 
 void main() {
-  print(addNumber(1, 2.6));
-  print(addNumber(1, 1));
+  var p1 = Person();
+  var p2 = Person();
+  p2.name = "Manu";
+  print(p1.name);
+  print(p1.name);
+  double firstResult;
+  firstResult = addNumbers(1, 1);
+  print(firstResult);
   print("Hello!");
 }
